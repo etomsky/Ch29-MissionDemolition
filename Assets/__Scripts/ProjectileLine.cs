@@ -121,7 +121,7 @@ public class ProjectileLine : MonoBehaviour {
         }
         //If there is a poi, its loc is added every FixedUpdate
         AddPoint();
-        if (FollowCam.POI == null);
+        if (FollowCam.POI == null)
         {
             // Once FollowCam.POI is null, make the local poi null too
             poi = null;
